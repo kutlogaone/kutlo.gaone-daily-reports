@@ -1,0 +1,102 @@
+  109  git --help commit
+  110  cd Desktop/python_course/notebooks_lecture_notes
+  111  rm -rf simplestats
+  112  git config --global user.name "kutlogaone"
+  113  git config --global user.email "kutlo.gaone@aims.ac.rw"
+  114  mkdir simplestats
+  115  cd simplestats
+  116  git init
+  117  ls -A .git
+  118  cd .git
+  119  ls -A
+  120  nano description
+  121  tree
+  122  tree
+  123  sudo pacman -Sy
+  124  cmd //c tree //f //a
+  125  find. -print
+  126  find.-print
+  127  find .-print
+  128  find . -print
+  129  git status
+  130  cd ..
+  131  git status
+  132  touch README.md
+  133  git status
+  134  git add README.md
+  135  git status
+  136  git commit -am "This is the first commit. It adds a readme file."
+  137  git status
+  138  git diff
+  139  git diff --stat
+  140  git diff HEAD -- /Desktop/python_course/notebooks_lecture_notes/simplestats
+  141  pwd
+  142  git diff HEAD -- /Desktop/python_course/notebooks_lecture_notes/simplestats
+  143  git diff HEAD -- /c/Users/kutlo/Desktop/python_course/notebooks_lecture_notes/simplestats
+  144  git diff --cached
+  145  git log
+  146  nano temp_notes
+  147  git add temp_notes
+  148  git status
+  149  rm -rf temp_notes
+  150  nano temp_notes.txt
+  151  git add temp_notes.txt
+  152  git status
+  153  git add .
+  154  git status
+  155  git reset temp_notes.txt
+  156  git status
+  157  git status
+  158  git add README.md
+  159  git checkout -- README.md
+  160  git status
+  161  git diff
+  162  cat README.md
+  163  cat temp_notes.txt
+  164  nano READYOU.md
+  165  git add READYOU.md
+  166  git rm READYOU.md
+  167  git rm -f READYOU.md
+  168  git status
+  169  rm README.md
+  170  git status
+  171  git checkout -- README.md
+  172  git status
+  173  git log
+  174  git diff
+  175  git commit -am""
+  176  git commit -am "Added and modified README.md and temp_notes.txt"
+  177  git log
+  178  git log --oneline
+  179  git revert 4ad9281
+  180  git log
+  181  git log --pretty=oneline
+  182  git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+  183  touch day1.txt day2.txt day3.txt day4.txt day5.txt 
+  184  ls
+  185  nano day1.txt
+  186  nano day2.txt
+  187  nano day3.txt
+  188  nano day4.txt
+  189  nano day5.txt
+  190  cd .git
+  191  ls
+  192  nano description
+  193  cd ..
+  194  git add .
+  195  git commit -am "Added 5 files in my directory with one line of content in each file."
+  196  nano day2.txt
+  197  nano day4.txt
+  198  git add .
+  199  git commit -am "Modified the 5 files in my directory."
+  200  git log
+  201  git log --oneline
+  202  git revert c55b129
+  203  git status
+  204  git revert --abort
+  205  git revert b1cb498
+  206  git status
+  207  git log
+  208  history
+  209  history tail - 110
+  213  history | tail -n 105 > kutlo.gaone-day04-reports.txt
